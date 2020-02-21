@@ -1,0 +1,45 @@
+body {
+    padding-left: 11em;
+    font-family: Georgia, "Times New Roman",
+          Times, serif;
+    color: white;
+    background-color: #d8da3d }
+  ul.navbar {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 2em;
+    left: 1em;
+    width: 9em }
+  h1 {
+    font-family: Helvetica, Geneva, Arial,
+          SunSans-Regular, sans-serif }
+  ul.navbar li {
+    background: white;
+    margin: 0.5em 0;
+    padding: 0.3em;
+    border-right: 1em solid red }
+  ul.navbar li {
+    text-decoration: none }
+  a:link {
+    color: black }
+  a:visited {
+    color: black }
+  address {
+    margin-top: 1em;
+    padding-top: 1em;
+    border-top: thin dotted }
+.footable > thead > tr > th {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ebf3fc), to(#dce9f9));
+  background-image: -webkit-linear-gradient(top, #ebf3fc, #dce9f9);
+  background-image: -moz-linear-gradient(top, #ebf3fc, #dce9f9);
+  background-image: -ms-linear-gradient(top, #ebf3fc, #dce9f9);
+  background-image: -o-linear-gradient(top, #ebf3fc, #dce9f9);
+  background-image: linear-gradient(to bottom, #ebf3fc, #dce9f9);
+  -webkit-box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;
+  -moz-box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;
+  box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;
+  border-top: none;
+  text-shadow: 0 1px 0 rgba(255,255,255,.5);
+}
